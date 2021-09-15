@@ -1,0 +1,183 @@
+.entete{
+  background-image: url("../images/photo_cafe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-image{
+  display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: -16px;
+}
+body{background-color: #f7f5f2;
+margin: 0;}
+.text2-image{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-content: center;
+    flex-direction: row;
+}
+.open p{
+  background-color: black;
+
+}
+
+
+
+ul{
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+  font-family: optima;
+  font-size: 70px;
+}
+
+h2{
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: black;
+}
+
+.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+.fond-color-italic{
+  font-style: italic;
+  background-color: #f1f1f1;
+}
+
+.fond-color{
+      border-left: 5px #cccccc solid;
+  background-color: #f1f1f1;
+  padding-left: 10px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.button{
+  background-color: black;
+  color: white;
+}
+.button:hover{
+  background-color: grey;
+  color: black;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.carte{
+text-align: center;
+}
+h4{
+  font-family: cursive;
+  font-weight: 200;
+}
+h5{
+  font-family: cursive;
+  font-weight: 200;
+  color: grey
+}
+.carte{
+  background-color: #f7f5f2
+}
+.FYI{
+  background-color: black;
+  color: white;
+}
+input{width: 89%;
+padding: 20px;
+}
+
+.info{font-weight: bold;}
+
+footer{text-align: center;
+margin-top: 50px;}
+
+
+
+
+
+
+
+
+.menu2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menualtern {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 8px;
+}
+
+div a {
+  color: black;
+}
+
+.linkheat {
+  background-color: grey;
+  color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.linkdrink {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#timer {
+  font-weight: bold;
+  background-color: red;
+}
+
+.promo{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+
+
+
+#demo, th, td, tr {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#txtHint{
+font-style: italic;}

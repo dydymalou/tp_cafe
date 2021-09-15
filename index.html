@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title> mon titre </title>
+  <meta charset="utf-8">
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/modale.css" rel="stylesheet">
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <!-- menu cliquable -->
+    <ul>
+      <li><a href="#ABOUT" > HOME </a></li>
+      <li><a href="#ABOUT" > ABOUT </a></li>
+      <li><a href="#menu" > MENU </a></li>
+      <li><a href="#WHERE" > WHERE </a></li>
+    </ul>
+
+<div class="entete">
+
+
+  <div class="text-image">
+    <h1> the <br>  cafe</h1>
+  </div>
+  <div class="text2-image">
+    <div class="open">
+      <p> open at the 6 pm</P>
+    </div>
+    <div class="adresse">
+      <p> adresse </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="blocktext">
+
+
+<div id=ABOUT>
+  <h2>ABOUT THE CAFE</h2>
+  <p >
+    The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <br><br>
+    In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches,
+    as well as a selection of sides and salads and other good stuff.
+  </p>
+  <div class="fond-color">
+    <div >
+      <p class="fond-color-italic"> "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet. </p>
+    </div>
+    <div>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+  </div>
+      <img src="images/coffeeshop.jpg">
+
+<div>
+  <span class="info">Opening hours </span>  : everyday from 6am to 5pm.
+  <br><br>
+    <span class="info">Address </span>: 15 Adr street, 5015, NY
+</div>
+
+
+
+<div id="menu">
+<h2 class="menutitle">MENU</h2>
+
+<div class="menu2">
+
+    <div class="menualtern">
+      <span id="heat" class="linkheat">Heat</span>
+      <span id="drink" class="linkdrink">Drink</span>
+    </div>
+
+    <div id="drink2">
+    <p>
+    <span class="title-menu">Coffee</span>
+    <br />
+    Regular coffee 2.50
+    </p>
+
+    <p>
+    <span class="title-menu">Chocolato</span>
+    <br />
+    Chocolate espresso with milk 4.50
+    </p>
+
+    <p>
+    <span class="title-menu">Corretto</span>
+    <br />
+    Whiskey and coffee 5.00
+    </p>
+
+    <p>
+    <span class="title-menu">Iced tea</span>
+    <br />
+    Hot tea, except not hot 3.00
+    </p>
+
+    <p>
+    <span class="title-menu">Soda</span>
+    <br />
+    Coke, Sprite, Fanta, etc. 2.50
+    </p>
+
+  </div>
+  <div id="heat2">
+
+    <p>
+      <span class="title-menu">Bread Basket</span>
+      <br />
+      Assortment of fresh baked fruit breads and muffins 5.50
+    </p>
+
+    <p>
+      <span class="title-menu">Honey Almond Granola with Fruits</span>
+      <br />
+      Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+    </p>
+
+    <p>
+      <span class="title-menu">Belgian Waffle</span>
+      <br />
+      Vanilla flavored batter with malted flour 7.50
+    </p>
+
+    <p>
+      <span class="title-menu">Scrambled eggs</span>
+      <br />
+      Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+    </p>
+
+    <p>
+      <span class="title-menu">Blueberry Pancakes</span>
+      <br />
+      With syrup, butter and lots of berries 8.50
+    </p>
+  </div>
+
+</div>
+<img class="margin-top" src="images/coffeeshop.jpg">
+</div>
+  <img  src="images/cafe_top_view.jpg">
+    <div id=WHERE>
+      <h2>WHERE TO FIND US </h2>
+      Find us at some address at some place.
+      <img  src="images/map.jpg">
+    <span class="FYI">
+        FYI!
+    </span>
+
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+
+
+      </div>
+      <div class="blocktext">
+        <span class="info">
+            Reserve
+        </span>a table, ask for today's special or just send us a message:
+
+      <form action="" method="GET">
+          <div>
+                <input type="text" id="name" name="user_name" placeholder="Name">
+          </div>
+          <br>
+          <div>
+              <input type="number" id="nombre" name="user_prenom" placeholder="How many people">
+          </div>
+          <br>
+          <div>
+              <input type="text" id="message" name="user_prenom" placeholder="Message">
+          </div>
+          <br>
+          <div class="">
+            <input type="date" id="date">
+          </div>
+          <br>
+          <div class="">
+            <input type="time" id="time">
+          </div>
+          <br>
+          <div>
+            <button type="button" id="Button" name="button" class="button" onclick="checkreservation()" ;>SEND MESSAGE</button>
+          </div>
+    </form>
+
+
+  </div>
+</div>
+<br>
+
+<button type="button"  onclick="showreservation()"> voir les reservations </button>
+
+<div id="planning"></div>
+<center>
+<div id="dispo" ></div>
+</center>
+<br>
+<div class="promo">
+  temps restant avant la fin de la promo, faîtes vite !
+  <div id="timer"></div>
+</div>
+
+<!--
+< Trigger/Open The Modal
+<button id="myBtn">Open Modal</button>
+
+ The Modal
+<div id="myModal" class="modal">
+
+   Modal content
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="message">ecoute moi bien Billy Boy, t'es obligé d'accepter les cookies !</p>
+    <div>
+          <button type="button" id=BoutonModale class="button" onclick="">ACCEPTER</button>
+    </div>
+  </div>
+
+</div> -->
+
+<!--
+<span id="txtHint"></span>
+<p>Prénom <input type="text" onkeyup="showCustomer(this.value)"></p>
+-->
+
+<!-- auto completion suggestions
+<p>Suggestions: <span id="txtHint"></span></p>
+<p>Prénom <input type="text" id="txt1" onkeyup="showHint(this.value)"></p>
+-->
+
+<!--
+<div>
+  <h2>Let AJAX change this text</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+
+<table id="demo">
+<tbody>
+    <tr>
+      <th></th>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+</tbody>
+</table>
+-->
+  </body>
+
+<script src=js/timer.js></script>
+<script src=js/menu.js></script>
+<script src=js/reservation.js></script>
+<script src=js/showreservation.js></script>
+<script src=js/checkreservation.js></script>
+
+  <footer> creer par blalbal</footer>
+  </html>
