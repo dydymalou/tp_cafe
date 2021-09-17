@@ -181,3 +181,8 @@ div a {
 
 #txtHint{
 font-style: italic;}
+
+
+#map {
+  height: 300px;
+}
