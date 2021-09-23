@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "cafe", 3307);
+$mysqli = new mysqli('db', 'root', 'root', 'cafe');
 if($mysqli->connect_error) {
   exit('Could not connect');
 }

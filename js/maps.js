@@ -6,7 +6,7 @@
 function initMap() {
  const mapOptions = {
    zoom: 8,
-   center: { lat: 48.52 , lng: 2.19  },
+   center: { lat: 49.894067 , lng: 2.295753  },
  };
 
  map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -14,7 +14,7 @@ function initMap() {
  const marker = new google.maps.Marker({
    // The below line is equivalent to writing:
    // position: new google.maps.LatLng(-34.397, 150.644)
-   position: { lat: 48.52 , lng: 2.19  },
+   position: { lat: 49.894067 , lng: 2.295753  },
    map: map,
  });
  // You can use a LatLng literal in place of a google.maps.LatLng object when
